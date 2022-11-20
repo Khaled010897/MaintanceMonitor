@@ -2,27 +2,29 @@ package at.fhtw.MaintenanceMonitor.controller;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class MSGController {
 
-    public static String motd = "Default Message";
+    public static String Message = "Default Message";
 
     /**
      * Rest Methode um die "Message of the day" abfragen mit einem GET Request
-     * @return
+     * @return Message of the day
      */
     @GetMapping("/monitor")
     public String getmsg(){
-        return motd;
+        return Message;
     }
 
     /**
      * Rest Methode um die "Message of the day" zu reseten mit einem DELETE request
-     * @return
+     * @return Message of the day
      */
     @DeleteMapping("/monitor")
-    public static String delmsg(){
-        motd = "Default Message";
-        return motd;
+    public String delmsg(){
+        Message = "Default Message";
+        return Message;
     }
 }

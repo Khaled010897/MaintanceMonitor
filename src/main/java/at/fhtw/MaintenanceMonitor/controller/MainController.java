@@ -11,11 +11,11 @@ public class MainController {
 
     /**
      * Default methode die die Website aufruft und überprüft ob sie "up" oder "down" ist
-     * @return
+     * @return Grüne Website oder Rote Website
      */
     @GetMapping("/")
     public String periodic(){
-        if (!MaintenanceMonitorApplication.isUp)return "rednew";
+        if (!MaintenanceMonitorApplication.isUp)return "red";
         return "green";
     }
 
