@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RedMainenanceMonitor</title>
+</head>
+
+<body style="background-color:red;">
+
+
+
+<h1 style="font-size:60px; text-align:center; padding-top:290px; ">Maintenance Monitor</h1>
+
+<p style="font-size:30px; text-align:center;"> Problem with Web-Server Maintenance</p>
+
+<div id="current_date", style="font-size:30px; text-align:center;">
+  <script>
+    document.getElementById("current_date").innerHTML = Date();
+  </script>
+</div>
+
+<p style="font-size:30px; text-align:center;"> Last Update:
+
+
+<label id="minutes">00</label>
+<label id="colon">:</label>
+<label id="seconds">00</label>
+    <script type="text/javascript">
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+    </script>
+
+</p>
+
+
+
+</body>
+</html>
