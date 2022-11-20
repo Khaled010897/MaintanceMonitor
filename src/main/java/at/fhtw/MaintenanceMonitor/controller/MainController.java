@@ -9,15 +9,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 @Controller
 public class MainController {
 
-    @GetMapping("/green")
-    public String green(){
+    /**
+     * Default methode die die Website aufruft und überprüft ob sie "up" oder "down" ist
+     * @return
+     */
+    @GetMapping("/")
+    public String periodic(){
+        if (!MaintenanceMonitorApplication.isUp)return "rednew";
         return "green";
     }
-
-    @GetMapping("/red")
-    public String red(){
-        return "red";
-    }
-
 
 }
