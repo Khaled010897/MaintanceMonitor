@@ -15,8 +15,8 @@ public class MaintenanceMonitorApplication {
     public static int month = 2592000;
 
     /**
-     * @int time - beschreibt den Zeitraum in dem es funktionieren soll
-     * @double SLA - beschreibt den Service Level Agreement wie lange es in einem Zeitraum
+     * int time - beschreibt den Zeitraum in dem es funktionieren soll
+     * double SLA - beschreibt den Service Level Agreement wie lange es in einem Zeitraum
      * Diese Methode berechnet sie anhand der SLA und time wie lange die Website in Error Status übergeht
      */
     public static void isUp(int time, double SLA){
