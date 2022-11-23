@@ -12,14 +12,14 @@ class MainControllerTest {
     @Test
     @DisplayName("Checks if the green.html is available")
     void TestGreen() {
-        File file = new File("C:\\Users\\Filipovic\\OneDrive\\Studium\\Software Lifecycle Management\\Projekt\\MaintenanceMonitor\\src\\main\\resources\\templates\\green.html");
+        File file = new File("src/main/resources/templates/green.html");
         assertEquals(true, file.exists());
     }
 
     @Test
     @DisplayName("Checks if the red.html is available")
     void TestRed() {
-        File file = new File("C:\\Users\\Filipovic\\OneDrive\\Studium\\Software Lifecycle Management\\Projekt\\MaintenanceMonitor\\src\\main\\resources\\templates\\red.html");
+        File file = new File("src/main/resources/templates/red.html");
         assertEquals(true, file.exists());
     }
 }
