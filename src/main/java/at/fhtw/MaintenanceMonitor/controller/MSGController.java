@@ -1,8 +1,6 @@
 package at.fhtw.MaintenanceMonitor.controller;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MSGController {
@@ -16,6 +14,16 @@ public class MSGController {
     @GetMapping("/monitor")
     public String getmsg(){
         return Message;
+    }
+
+    /**
+     * Rest Methode um die "Message of the day" abfragen mit einem POST request
+     * @return
+     */
+    @PutMapping("/monitor")
+    public static String setmsg(@RequestBody String msg){
+        motd = msg;
+        return motd;
     }
 
     /**
