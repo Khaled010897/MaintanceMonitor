@@ -31,7 +31,7 @@ public class MSGController {
      * @return Message of the day
      */
     @DeleteMapping("/monitor")
-    public String delmsg(){
+    public static String delmsg(){
         motd = "Default Message";
         return motd;
     }
