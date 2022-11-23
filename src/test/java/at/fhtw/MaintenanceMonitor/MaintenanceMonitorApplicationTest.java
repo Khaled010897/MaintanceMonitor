@@ -14,9 +14,5 @@ class MaintenanceMonitorApplicationTest {
         assertEquals(true, MaintenanceMonitorApplication.isUp);
     }
 
-    @RepeatedTest(10)
-    @DisplayName("Website should be down for a time")
-    void TestifDown(){
-        assertEquals(false, MaintenanceMonitorApplication.isUp);
-    }
+
 }
