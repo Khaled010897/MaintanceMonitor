@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainControllerTest {
 
-
     @Test
     @DisplayName("Checks if the green.html is available")
     void TestGreen() {
