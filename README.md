@@ -25,7 +25,13 @@ All monitors show the same content: a maximized website.
 
 
 ## Prozess:
-
+1. Prozesse Dokumentiert
+2. Branching (Branches und Kanbanboard erstellt)
+3. Anforderungen defeniert (User Stories erstellt)
+4. Implementation
+5. Testphase
+6. Erstellen einer Pipeline (Continuous Integration and Gradle)
+7. Artefacts
 
 ## User Stories:
 ![UserStories](https://user-images.githubusercontent.com/31740404/203805321-c4466343-6ee0-4279-81f9-c9d9fb26c11d.JPG)
