@@ -18,6 +18,8 @@ service times are very important to us. Huge monitors were installed that should
 All monitors show the same content: a maximized website.
 
 ### Screenshot green monitor
+![green](https://user-images.githubusercontent.com/31740404/203803493-00285254-dcb4-4ff8-94a2-b30f4815d814.png)
+
 ### Screenshot red monitor
 
 ## Prozess:
