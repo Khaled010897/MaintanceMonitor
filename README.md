@@ -21,6 +21,8 @@ All monitors show the same content: a maximized website.
 ![green](https://user-images.githubusercontent.com/31740404/203803493-00285254-dcb4-4ff8-94a2-b30f4815d814.png)
 
 ### Screenshot red monitor
+![rot](https://user-images.githubusercontent.com/31740404/203803825-5e5f032c-d194-4bc4-bf49-15ad300a6e6c.png)
+
 
 ## Prozess:
 
