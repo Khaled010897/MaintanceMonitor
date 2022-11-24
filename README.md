@@ -28,6 +28,7 @@ All monitors show the same content: a maximized website.
 
 
 ## User Stories:
+![UserStories](https://user-images.githubusercontent.com/31740404/203805321-c4466343-6ee0-4279-81f9-c9d9fb26c11d.JPG)
 
 
 ## Repository URL:
