@@ -44,4 +44,7 @@ All monitors show the same content: a maximized website.
 
 ## Nutzung von der Software:
 
+1. REST-Server starten (MaintenanceMonitorApplication.Java)
+2. Webbrowser mit localhost:8080 verbinden
+3. Eine Nachricht ändern/löschen oder abrufen
 
