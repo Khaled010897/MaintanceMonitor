@@ -6,6 +6,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Random;
 
+/**
+ * Main Klasse zum Ausführen vom Rest Server.
+ */
 @SpringBootApplication
 public class MaintenanceMonitorApplication {
 
